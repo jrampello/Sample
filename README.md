@@ -1,2 +1,2 @@
-# Maven
-Maven GitHub Sample Site
+# SAMPLE
+GitHub Sample Site
