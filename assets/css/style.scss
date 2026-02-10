@@ -1,0 +1,98 @@
+---
+---
+
+/* =====================================================
+   Maven Asset Management Solutions – Brand Styling
+   ===================================================== */
+
+/* Brand colors */
+:root {
+  --maven-blue-primary: #3e67b1;
+  --maven-blue-deep: #292c75;
+  --maven-gray-text: #545454;
+
+  --background: #f6f8fb;
+  --white: #ffffff;
+  --border: #d9deea;
+}
+
+/* Reset / base */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color: var(--maven-gray-text);
+  background: var(--background);
+  line-height: 1.6;
+}
+
+/* Layout container */
+.container {
+  width: min(1100px, 92vw);
+  margin: 0 auto;
+}
+
+/* =====================================================
+   Header / Navigation
+   ===================================================== */
+
+.site-header {
+  background: linear-gradient(
+    90deg,
+    var(--maven-blue-deep),
+    var(--maven-blue-primary)
+  );
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 0;
+  gap: 16px;
+}
+
+/* Logo */
+.brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.brand-logo {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  opacity: 0.95;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+/* CTA button */
+.nav .cta {
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 10px 14px;
+  border-radius
