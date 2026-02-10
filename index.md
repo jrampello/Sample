@@ -44,6 +44,6 @@ title: Home
 
 <p class="section-title">Why we built this</p>
 <div class="card">
-  <p>Too often, organizations invest in systems like Maximo without shared clarity on what key concepts actually mean in practice — reliability that reduces surprise failures, governance that sustains standards, data leaders can trust, and work management that improves predictability.</p>
-  <p>This site is designed to be useful, not promotional.</p>
+  <p>Too often, organizations invest in systems like Maximo without shared clarity on what key concepts actually mean in practice, reliability that reduces surprise failures, governance that sustains standards, data leaders can trust, and work management that improves predictability.</p>
+  <p>This site is designed to be useful.</p>
 </div>
